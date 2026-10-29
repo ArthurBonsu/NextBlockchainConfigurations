@@ -1,0 +1,64 @@
+NEXT_PUBLIC_DEBUG=true
+ETHEREUM_PROVIDER_URL=
+POLKADOT_PROVIDER_URL=
+NEXT_PUBLIC_TATUM_API_KEY=
+ETHERSCAN_API_KEY=
+
+# Contract Addresses
+METADATA_PARSER_ADDRESS=
+PACECHAIN_CHANNEL_ADDRESS=
+RELAY_CHAIN_ADDRESS=
+PRIVATE_KEY=
+TATUM_ETHEREUM_ENDPOINT=
+INFURA_PROJECT_ID=
+CHAIN=11155111
+WALLET_ADDRESS=
+TATUM_ADDRESS= 
+INFURA_PROJECT_SECRET=
+WALLET2ADDRESS=
+WALLET2AMNEUMONICS=
+
+
+# Ethereum Network Configuration
+MNEMONIC=
+# Network Selection (development, ethereum_testnet, tatum_testnet)
+NETWORK=development
+
+# Gas Configuration
+GAS_PRICE=20000000000
+GAS_LIMIT=6721975
+
+
+# Optional: Custom RPC URL
+# CUSTOM_RPC_URL="your custom rpc url here"
+
+pandas>=2.0.0
+web3>=6.0.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+asyncio>=3.4.3
+aiohttp>=3.8.0
+python-json-logger>=2.0.0
+
+ETHEREUM_RPC_URL="", `
+POLKADOT_WS_URL="wss://rococo-rpc.polkadot.io"
+
+
+
+ASSET_TRANSFER_ADDRESS=
+CONFIDENCE_CALCULATOR_ADDRESS=
+PACCHAIN_CHANNEL_ADDRESS=
+SPECULATIVE_TX_ADDRESS=
+# ==================== GOOGLE CLOUD CONFIGURATION (ADD THIS) ====================
+# PassChain Google Cloud Project (uses custom prefix to avoid conflicts)
+PASSCHAIN_GCP_PROJECT_ID=passchain-multichain-research
+PASSCHAIN_CLOUD_RUN_REGION=us-central1
+
+# Google Cloud Storage Buckets
+PASSCHAIN_RESULTS_BUCKET=
+PASSCHAIN_CHARTS_BUCKET=
+# PassChain Cloud Service Configuration  
+PASSCHAIN_MAX_CONCURRENT_TESTS=5
+PASSCHAIN_TEST_TIMEOUT=300000
+PASSCHAIN_LOG_LEVEL=info
+PASSCHAIN_CORS_ORIGIN=*
